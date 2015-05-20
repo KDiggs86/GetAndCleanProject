@@ -1,4 +1,4 @@
-Human Activity Recognition Using Smartphones 
+##Human Activity Recognition Using Smartphones 
 
 All data was taken from the the UCIHARDataset from the Coursera Getting and Cleaning Data course. This dataset tracks the motions of a group of 30 volunteers performing six activities while wearing a smartphone on their waste. For detailed information on how each measure was taken please see the README.txt and features_info.txt files of the UCIHARDdataset repository. 
 
