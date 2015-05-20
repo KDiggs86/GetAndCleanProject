@@ -3,11 +3,17 @@ Human Activity Recognition Using Smartphones
 All data was taken from the the UCIHARDataset from the Coursera Getting and Cleaning Data course. This dataset tracks the motions of a group of 30 volunteers performing six activities while wearing a smartphone on their waste. For detailed information on how each measure was taken please see the README.txt and features_info.txt files of the UCIHARDdataset repository. 
 
 Researchers had volunteers perform six activities while wearing a smartphone. The activities are:
+
 1) Walking
+
 2) Walking Upstairs
+
 3) Walking Downstairs
+
 4) Sitting
+
 5) Standing
+
 6) Laying
 
 Researchers measured 3-axial linear acceleration (using the accelerometer of the smartphone) and 3-axial angular velocity (using the gyroscope of the smartphone) at a constant rate of 50Hz. They also derived the acceleration and velocity with respect to time to obtain Jerk signals. They then recorded the following features in both the time and frequency domains: ‘-XYZ’ is used to denote the signals in the X, Y and Z directions.
