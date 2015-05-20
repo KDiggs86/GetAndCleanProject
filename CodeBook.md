@@ -18,16 +18,16 @@ Researchers had volunteers perform six activities while wearing a smartphone. Th
 
 Researchers measured 3-axial linear acceleration (using the accelerometer of the smartphone) and 3-axial angular velocity (using the gyroscope of the smartphone) at a constant rate of 50Hz. They also derived the acceleration and velocity with respect to time to obtain Jerk signals. They then recorded the following features in both the time and frequency domains: ‘-XYZ’ is used to denote the signals in the X, Y and Z directions.
 
-Body Acceleration - XYZ
-Gravity Acceleration - XYZ
-Body Acceleration Jerk - XYZ
-Body Angular Velocity - XYZ (we will call Angular Velocity “Gyro” from now on)
-Body Gyro Jerk - XYZ
-Body Acceleration Magnitude (Magnitude calculated using Euclidean norm)
-Gravity Acceleration Magnitude
-Body Accleration Jerk Magnitude
-Body Gyro Magnitude
-Body Gyro Jerk Magnitude
+- Body Acceleration - XYZ
+- Gravity Acceleration - XYZ
+- Body Acceleration Jerk - XYZ
+- Body Angular Velocity - XYZ (we will call Angular Velocity “Gyro” from now on)
+- Body Gyro Jerk - XYZ
+- Body Acceleration Magnitude (Magnitude calculated using Euclidean norm)
+- Gravity Acceleration Magnitude
+- Body Accleration Jerk Magnitude
+- Body Gyro Magnitude
+- Body Gyro Jerk Magnitude
 
 The researchers sampled the sensor signals in fixed-width sliding windows of 2.56 sec and 50% overlap and performed numerous calculations with the data collected. For this project we are only interested in the mean and standard deviation of each feature and the mean frequency of the frequency components. 
 
@@ -37,6 +37,7 @@ Each of the variable in our data set labeled using the following system:
 - standard deviation measurements in time domain start with s_t
 - standard deviation measurements in frequency domain start with s_f
 - mean frequency measurements in frequency domain start with mfreq_f
+
 Use the following abbreviations to decode each variable:
 - B = Body
 - Gr = Gravity
