@@ -38,20 +38,24 @@ Each of the variable in our data set labeled using the following system:
 - standard deviation measurements in frequency domain start with s_f
 - mean frequency measurements in frequency domain start with mfreq_f
 Use the following abbreviations to decode each variable:
-B = Body
-Gr = Gravity
-A = Acceleration
-Gy = Gyro
-J = Jerk
-M = Magnitude
-X = in the X direction
-Y = in the Y direction
-Z = in the Z direction
+- B = Body
+- Gr = Gravity
+- A = Acceleration
+- Gy = Gyro
+- J = Jerk
+- M = Magnitude
+- X = in the X direction
+- Y = in the Y direction
+- Z = in the Z direction
 
 Examples:
+
 (1) m_tBAX = mean of the X-direction Body Acceleration measurements in the time domain
+
 (2) s_fBGyJY = standard deviation of the Y-direction Body Gyro measurements in the frequency domain
+
 (3) s_tBAJM = standard deviation of the body acceleration jerk magnitude measurements in the time domain
+
 (4) mfreq_fBGyJM = mean frequency of the body gyro jerk magnitude measurements in the frequency domain
 
 
