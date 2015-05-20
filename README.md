@@ -1,6 +1,8 @@
 # GetAndCleanProject
 
-##The run_analysis.R script cleans up the UCIHardataset. It works as follows.
+##The run_analysis.R script cleans up the UCIHARdataset. 
+
+###It works as follows.
 
 After reading all of the data files into dataframes, we first merge the test data with the test activity codes. We do the same for the train data and train activity codes. In order to do this we need to rename the column of the activity codes so that there are no duplicate column names. We then merge the train and test dataframes to create one really big dataframe called data.
 
